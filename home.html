@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReTro</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <nav class="m-8">
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 6h16M4 12h8m-8 6h16" />
+                  </svg>
+                </div>
+              </div>
+              <a class="btn btn-ghost text-2xl">ReTro</a>
+            </div>
+            <div class="navbar-end space-x-2">
+                <div class="tooltip" data-tip="Home">
+                    <button class="btn rounded-2xl"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#274483"><path d="M200-160v-366L88-440l-48-64 440-336 160 122v-82h120v174l160 122-48 64-112-86v366H520v-240h-80v240H200Zm80-80h80v-240h240v240h80v-347L480-739 280-587v347Zm120-319h160q0-32-24-52.5T480-632q-32 0-56 20.5T400-559Zm-40 319v-240h240v240-240H360v240Z"/></svg></button>
+                </div>
+                <div class="tooltip" data-tip="Edit">
+                    <button class="btn rounded-2xl"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#274483"><path d="M200-200h57l391-391-57-57-391 391v57Zm-80 80v-170l528-527q12-11 26.5-17t30.5-6q16 0 31 6t26 18l55 56q12 11 17.5 26t5.5 30q0 16-5.5 30.5T817-647L290-120H120Zm640-584-56-56 56 56Zm-141 85-28-29 57 57-29-28Z"/></svg></button>
+                </div>
+                  <div class="tooltip" data-tip="Add">
+                    <button class="btn rounded-2xl"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#274483"><path d="M720-400v-120H600v-80h120v-120h80v120h120v80H800v120h-80Zm-360-80q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 66-47 113t-113 47ZM40-160v-112q0-34 17.5-62.5T104-378q62-31 126-46.5T360-440q66 0 130 15.5T616-378q29 15 46.5 43.5T680-272v112H40Zm80-80h480v-32q0-11-5.5-20T580-306q-54-27-109-40.5T360-360q-56 0-111 13.5T140-306q-9 5-14.5 14t-5.5 20v32Zm240-320q33 0 56.5-23.5T440-640q0-33-23.5-56.5T360-720q-33 0-56.5 23.5T280-640q0 33 23.5 56.5T360-560Zm0-80Zm0 400Z"/></svg></button>
+                </div>
+                  <div class="tooltip" data-tip="Flag">
+                    <button class="btn rounded-2xl"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#274483"><path d="M200-120v-680h360l16 80h224v400H520l-16-80H280v280h-80Zm300-440Zm86 160h134v-240H510l-16-80H280v240h290l16 80Z"/></svg></button>
+                </div>
+              <a class="btn bg-blue-950 text-primary-content">Sign In</a>
+
+            </div>
+          </div>
+    </nav>
+    <div id="banner1" class="h-96 ">
+        <div class="hero p-8 bg-slate-600 bg-[url('bgbanner.png')]">
+            <div class="hero-content flex-col lg:flex-row-reverse">
+              <div class="w-1/3 p-4 space-y-2 flex flex-col bg-blue-950 text-primary-content">
+                <div class="flex flex-row justify-between">
+                    <p>Registered Used</p>
+                    <p>01</p>
+                </div>
+                <div class="flex flex-row justify-between">
+                    <p>Forum</p>
+                    <p>05</p>
+                </div>
+                <div class="flex flex-row justify-between">
+                    <p>Topics</p>
+                    <p>01</p>
+                </div>
+                <div class="flex flex-row justify-between">
+                    <p>Replies</p>
+                    <p>15</p>
+                </div>
+              </div>
+              <div>
+                <h1 class="text-5xl font-bold">Welcome to the <br><span>ReTro </span>Forum</h1>
+                <p class="py-6">
+                Share your favorite opinion and win and wp forum coffee mug!  
+                </p>
+                <label class="input input-bordered flex items-center gap-2">
+                    <input type="text" class="grow" placeholder="Search" />
+                    <button class="btn bg-blue-950 text-primary-content">Search
+                        <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 16 16"
+                        fill="currentColor"
+                        class="h-4 w-4 opacity-70">
+                        <path
+                          fill-rule="evenodd"
+                          d="M9.965 11.026a5 5 0 1 1 1.06-1.06l2.755 2.754a.75.75 0 1 1-1.06 1.06l-2.755-2.754ZM10.5 7a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Z"
+                          clip-rule="evenodd" />
+                      </svg></button>
+                    
+                  </label>
+              </div>
+            </div>
+          </div>
+    </div>
+    <div id="discuss">
+        <div class="text-center space-y-2">
+            <h1 class="text-2xl">Let's Discuss</h1>
+            <p>Yes, you can unit tests and view the results directly within the app. The integrated testing features allow for a streamlined.</p>
+        </div>
+        <div class="text-center grid grid-flow-col grid-cols-3">
+            <div id="discussShow ">
+
+            </div>
+            <div id="discussTitle ">
+                <p>Title</p>
+
+            </div>
+        </div>
+
+    </div>
+    <div id="banner2">
+        <div class="hero my-8 bg-blue-950 text-primary-content">
+            <div class="hero-content flex-col lg:flex-row-reverse">
+              <img
+                src="joinforum.png"
+                class="max-w-sm rounded-lg shadow-2xl" />
+              <div>
+                <h1 class="text-5xl font-bold">Join Our Forum</h1>
+                <p class="py-6">
+                  Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
+                  quasi. In deleniti eaque aut repudiandae et a id nisi.
+                </p>
+                <button class="btn bg-blue-950 text-primary-content">Registered Now</button>
+              </div>
+            </div>
+          </div>
+
+    </div>
+    <div class="my-8" >
+        <div class="text-center space-y-2">
+            <h1 class="text-2xl">Larest Posts</h1>
+            <p>Yes, you can unit tests and view the results directly within the app. The integrated testing features allow for a streamlined.</p>
+        </div>
+        <div id="post" class="grid grid-cols-3">
+
+        </div>
+
+    </div>
+    <footer>
+        <footer class="footer footer-center bg-blue-950 text-primary-content p-10">
+            <aside>
+              <p class="font-bold text-4xl">ReTro</p>
+              <p class="font-bold">
+                Contrary to popular belief,Lorem lpsum is not simply random text. It has roots in a
+                <br />
+                piece of classical Latin literature from 45 BC
+              </p>
+            </aside>
+            <nav>
+              <div class="grid grid-flow-col gap-4">
+                <a>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    class="fill-current">
+                    <path
+                      d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path>
+                  </svg>
+                </a>
+                <a>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    class="fill-current">
+                    <path
+                      d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path>
+                  </svg>
+                </a>
+                <a>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    class="fill-current">
+                    <path
+                      d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path>
+                  </svg>
+                </a>
+
+              </div>
+            </nav>
+            <p>Copyright © ${new Date().getFullYear()} - All right reserved</p>
+          </footer>
+    </footer>
+    
+</body>
+</html>
